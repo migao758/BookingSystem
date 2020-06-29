@@ -1,0 +1,91 @@
+@import url('manage.css');
+.wrapper {
+    
+    display: grid;
+    grid-template-columns:  1fr 1fr ;
+    grid-template-rows: auto ;
+    
+    grid-gap: 20px;
+   
+}
+.box1{
+    padding: 0;
+    grid-column-start: 1;
+    grid-column-end: 3;
+   
+}
+.box1 h2 {
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+.box2{
+    grid-column-start: 3;
+    grid-column-end: ;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+.table {
+    position: relative;
+    top: -400px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+
+
+
+caption {
+	font-weight: bold;
+	padding: 10px;
+	background-color: #3b6978;
+}
+
+thead th {
+	background-color: #204051;
+}
+
+caption,
+thead th {
+	color: #fff;
+}
+
+th {
+	padding: 10px 5px;
+}
+
+tfoot {
+	text-align: left;
+	background-color: #e7dfd5;
+	font-weight: lighter;
+	font-size: 0.8em;
+}
+
+tbody th,
+tbody td {
+	text-align: center;
+}
+
+tbody tr {
+	border-bottom: 2px solid transparent;
+}
+
+tbody tr:hover {
+	border-bottom: 2px solid #84a9ac;
+}
+
+tbody tr:nth-of-type(even) {
+	background-color: #245361;
+}
+
+.box2 {
+    height: auto;
+}

@@ -1,0 +1,208 @@
+
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,700);
+@import url(https://weloveiconfonts.com/api/?family=entypo|fontawesome|zocial);
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+/* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+
+.icon-cloudy:before {
+	content: "\e60f";
+}
+.icon-sun:before {
+	content: "\e610";
+}
+.icon-cloudy2:before {
+	content: "\e611";
+}
+
+/* END FONTS */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;  
+  }
+  
+  body {
+      background: #1f253d;
+    margin: 0 auto;
+    max-width: 900px;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding-left: 0;
+  }
+  
+  h1 {
+      font-size: 23px;
+  }
+  
+  h2 {
+      font-size: 17px;
+  }
+  
+  p {
+      font-size: 15px;
+  }
+  
+  a {
+      text-decoration: none;
+      font-size: 15px;
+  }
+      a:hover {
+          text-decoration: underline;
+      }
+  
+  a, span{
+      color: #fff;
+  }
+      .scnd-font-color {
+          color: #9099b7;
+      }
+      header {
+        height: 80px;
+        background-color: #50597b;
+        border-radius: 5px;
+	}
+		.header-menu {
+			font-size: 17px;
+            line-height: 80px;
+            display: flex;
+            justify-content: space-evenly;
+		}
+			.header-menu li {
+				position: relative;
+        		-webkit-transform: translateZ(0); 
+			}
+				.header-menu-tab {
+					padding: 0 27px;
+					display: block;
+					line-height: 74px;
+					font-size: 17px;
+					
+				}
+					.header-menu-tab:hover {
+						background: #142f2fb0;
+						border-bottom: 4px solid #11a8ab;
+                        text-decoration: none;
+                        border-radius: 5px;
+					}
+					.header-menu-tab .icon {
+						padding-right: 15px;
+                    }
+                    
+/* Section */
+.wrapper {
+   padding-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr auto 1fr;
+   
+    grid-gap: 20px;
+    width: 900px;
+    height: 500px;
+   
+}
+.box1, .box2, .box3 , .boxlong{
+    background-color: #50597b;
+    border-radius: 5px;
+}
+.box1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding-bottom: 20px;
+}
+.box1 span {
+    color: rgb(20, 170, 207);
+}
+.box1 h2{
+    color: rgb(221, 219, 219);
+    font-weight: 400;
+}
+.boxlong{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.boxlong{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.box1 h1,h2{
+    text-align: center;
+}     
+button{
+   cursor: pointer;
+    padding:  0 15px;
+    border-radius: 25px;
+    background-color: rgb(194, 0, 0);
+    color: white;
+    font-size: 15px;
+    border: none;
+}  
+.button p {
+    font-weight: 900;
+  }
+button .icon{
+    color: white;
+    font-size: 20px;
+    padding-right: 5px;
+
+}    
+	button:hover	{
+        background-color: rgb(165, 64, 6);
+    }
+		.center{
+            display: flex;
+            justify-content: center;
+           
+        }
+        .box2, .box3{
+            display: grid;
+            grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+   
+    /* grid-gap: 10px; */
+  
+    
+
+        }
+        .box2 h4, .box3 h4{
+            font-size: 20px;
+            color: rgb(20, 170, 207);
+        }
+        .box2 p, .box3 p{
+            font-size: 20px;
+            font-weight: 200;
+        }
+        .one, .two {
+
+
+width: auto;
+height: auto;
+margin: 0 auto;
+padding: 10px;
+position: relative;
+text-align: center;
+justify-content: space-evenly;
+
+        }
+        .one i, .two i{
+            font-size: 60px;
+            color: #9099b7;
+            
+        }
+       

@@ -1,0 +1,22 @@
+@import url('manage.css');
+.wrapper {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr ;
+    position: relative;
+    grid-gap: 20px;
+   
+    height: auto;
+}
+.box1{
+    padding-top: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.boxIn {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}

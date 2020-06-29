@@ -1,0 +1,74 @@
+@import url('style.css');
+@import url('login.css');
+.wrapper {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr auto  1fr;
+    grid-template-rows: 1fr ;
+    position: relative;
+    grid-gap: 20px;
+   
+    height: auto;
+}
+.box1 {
+    padding: 50px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    height: 900px;
+    
+}
+.pad {
+    padding: 10px;
+    margin-top: 20px;
+    height: 300px;
+}
+.box2{
+    grid-column-start: 3;
+    grid-column-end: 4; 
+    height: 1300px;
+    padding-top: 0;
+    
+}
+
+.text {
+    text-align: center;
+}
+.date input {
+    padding: 0 20px 0 20px;
+}
+.name
+{
+    padding-left: 20px;
+    padding-bottom: 8px;
+}
+.location {
+display: grid;
+padding-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+   
+    grid-gap: 20px;
+    
+}
+.con{
+    top: -320px;
+    position: relative;
+    height: 480px;
+}
+.changeS{
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px;
+}
+.box33,.box4,.box5,.box6,.box7 {
+  display: none;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 430px;
+    height: auto;
+    position: absolute;
+    right: 0;
+    top: 810px;
+}
